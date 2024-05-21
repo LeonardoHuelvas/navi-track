@@ -1,0 +1,20 @@
+{
+    "name": "javascript-tracking",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.19.2",
+        "express-validator": "^6.15.0",
+        "helmet": "^4.6.0",
+        "playwright": "^1.44.0",
+        "@sparticuz/chromium": "123.0.1",
+        "serverless-http": "^2.7.0"
+    }
+}
