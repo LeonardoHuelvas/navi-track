@@ -17,6 +17,9 @@ RUN ./install-playwright-deps.sh
 COPY package*.json ./
 RUN npm install
 
+# Instala los navegadores de Playwright
+RUN npx playwright install --with-deps
+
 # Copia el código fuente de la aplicación dentro del contenedor
 COPY . .
 
